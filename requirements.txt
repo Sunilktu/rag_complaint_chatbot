@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+streamlit
+langchain
+langchain-community
+langchain-google-genai
+requests
+pypdf
+python-dotenv

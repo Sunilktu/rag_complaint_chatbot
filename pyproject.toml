@@ -1,0 +1,18 @@
+[project]
+name = "rag-complaint-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.14",
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.26",
+    "langchain-google-genai>=2.1.5",
+    "pydantic[email]>=2.11.7",
+    "pypdf>=5.6.1",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+    "streamlit>=1.46.1",
+    "uvicorn>=0.35.0",
+]
